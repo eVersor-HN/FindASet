@@ -1,0 +1,4 @@
+# Build artifacts kept out of git; the APK ships as a GitHub Release asset, not in the tree.
+*.apk
+*.aab
+.DS_Store

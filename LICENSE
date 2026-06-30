@@ -1,0 +1,123 @@
+FindASet End-User License Agreement (EULA)
+Copyright (c) 2026 Marco Aurelio Fattizzo. All rights reserved.
+
+This is a proprietary license. FindASet is NOT open source. Please read it in
+full; by downloading, installing, or using the Software you agree to these terms.
+If you do not agree, do not install or use the Software.
+
+1. Definitions
+   "Software" means the FindASet application in compiled/binary form, together
+   with its assets, models, documentation, and these license files, as
+   distributed by the Licensor. "Licensor" means the copyright holder named
+   above. "You" means the individual or legal entity exercising rights under
+   this License.
+
+2. Grant of License
+   Subject to Your compliance with this License, the Licensor grants You a
+   worldwide, royalty-free, non-exclusive, non-transferable, non-sublicensable
+   license to install and run the Software on devices You own or control, for
+   Your own purposes, whether private, internal business, or commercial. Use of
+   the Software within a company or organization for its own internal purposes
+   is permitted under this Section.
+
+3. Restrictions. Except where (and only to the extent) a restriction below is
+   prohibited by mandatory applicable law, You may NOT:
+   (a) sell, resell, rent, lease, lend, sublicense, distribute, redistribute,
+       publish, host, mirror, share, or otherwise make the Software (in whole
+       or in part) available to any third party, whether for a fee or free of
+       charge, and whether as a standalone file or bundled into another product
+       or service;
+   (b) modify, adapt, translate, port, or create derivative works of the
+       Software, or merge it into other software;
+   (c) reverse engineer, decompile, disassemble, deobfuscate, or otherwise
+       attempt to derive the source code, underlying ideas, or algorithms of the
+       Software, by any means;
+   (d) remove, alter, obscure, or circumvent any copyright, trademark, license,
+       authorship, integrity, or other proprietary notice, marking, or
+       technical protection or verification measure in or on the Software;
+   (e) use the "FindASet" name, logo, or branding except to refer to verbatim,
+       unmodified copies of the Software as distributed by the Licensor.
+
+   The only authorized source of the Software is the Licensor's official release
+   channel (see Section 11). To give the Software to someone else, direct them
+   to that channel rather than passing on a copy.
+
+4. Mandatory-Law Carve-Out (Decompilation / Interoperability)
+   Nothing in Section 3 limits any rights You have that cannot be excluded by
+   contract under mandatory applicable law — in particular, where German law
+   applies, Your right to decompile under § 69e UrhG (German Copyright Act) to
+   the limited extent necessary to achieve interoperability of an independently
+   created program. To the extent such mandatory rights apply, Section 3(b)–(c)
+   yields to them, and only to them.
+
+5. Reservation of Rights; Licensed, Not Sold
+   The Software is licensed, not sold. The Licensor and its licensors reserve
+   all rights not expressly granted in this License. The source code is neither
+   licensed nor provided, and nothing in this License makes the Software open
+   source or free/libre software. No title or ownership is transferred to You.
+
+6. Third-Party Components
+   The Software incorporates third-party open-source components licensed under
+   their own terms; see THIRD_PARTY_NOTICES.md. Those terms govern those
+   components and, to the extent they conflict with this License, control as to
+   those components only. Nothing in this License limits any rights You have
+   under those third-party licenses with respect to those components.
+
+7. No Warranty
+   TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, THE SOFTWARE IS PROVIDED
+   "AS IS" AND "AS AVAILABLE", WITHOUT WARRANTY OR GUARANTEE OF ANY KIND, WHETHER
+   EXPRESS, IMPLIED, OR STATUTORY, INCLUDING BUT NOT LIMITED TO ANY IMPLIED
+   WARRANTIES OF MERCHANTABILITY, SATISFACTORY QUALITY, FITNESS FOR A PARTICULAR
+   PURPOSE, ACCURACY, AND NON-INFRINGEMENT. The Software is a personal
+   bookkeeping tool and is not a medical, dietary, diagnostic, or safety device;
+   see DISCLAIMER.md.
+
+8. Limitation of Liability
+   TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, THE LICENSOR SHALL NOT BE
+   LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, OR PUNITIVE
+   DAMAGES, OR FOR ANY LOSS OF DATA, PROFITS, REVENUE, OR GOODWILL, ARISING FROM
+   OR IN CONNECTION WITH THE SOFTWARE OR ITS USE OR INABILITY TO BE USED, EVEN
+   IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
+
+   Mandatory liability remains UNAFFECTED. In particular, where German law
+   applies, this License does not limit or exclude liability: (i) for damages
+   arising from injury to life, body, or health; (ii) for intent (Vorsatz) or
+   gross negligence (grobe Fahrlässigkeit); (iii) under the German Product
+   Liability Act (Produkthaftungsgesetz); (iv) for fraudulently concealed
+   defects; or (v) for the culpable breach of an essential contractual duty
+   (Kardinalpflicht), in which case liability for slight negligence is limited
+   to the foreseeable damage typical for this kind of contract. As the Software
+   is provided free of charge, the Licensor's liability is further governed by
+   the privileged standard for gratuitous provision under applicable law.
+
+9. Term and Termination
+   This License is effective until terminated. It terminates automatically and
+   immediately if You breach any of its terms. On termination You must cease all
+   use of the Software and delete all copies in Your possession or control.
+   Sections 3 through 8 and 10 through 12 survive termination.
+
+10. Governing Law; Venue
+   This License is governed by the laws of the Federal Republic of Germany,
+   excluding its conflict-of-laws rules and the United Nations Convention on
+   Contracts for the International Sale of Goods (CISG). Mandatory consumer
+   protection provisions of Your country of habitual residence remain
+   unaffected. To the extent permitted by law, the exclusive place of
+   jurisdiction for disputes arising out of or in connection with this License
+   is the Licensor's place of residence in Germany.
+
+11. Authentication / Official Source
+   The official, authentic Software is published only at:
+   https://github.com/eVersor-HN/FindASet
+   Each release lists the SHA-256 checksum of the official APK so You can verify
+   that Your copy is the genuine, unmodified build. Copies obtained elsewhere,
+   or whose checksum does not match, are not covered by this License and may be
+   tampered with.
+
+12. Severability; Entire Agreement
+   If any provision of this License is held invalid or unenforceable, that
+   provision shall be enforced to the maximum extent permissible and the
+   remaining provisions shall remain in full force and effect. This License is
+   the entire agreement between You and the Licensor regarding the Software and
+   supersedes any prior understanding.
+
+Contact: via GitHub — https://github.com/eVersor-HN/FindASet (open an issue).
