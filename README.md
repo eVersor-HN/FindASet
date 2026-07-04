@@ -57,23 +57,23 @@ of your downloaded file and confirm it matches **exactly**. If it does, you have
 the genuine, unmodified build signed by the author. If it does **not**, do not
 install it.
 
-**v1.0 — `FindASet-1.0.apk`**
+**v1.1 — `FindASet-1.1.apk`**
 
 ```
-43c07b5703a5465efc0356d02bb04598cb813119587f2a8a855de4b7c4cb59d7
+4ae4918ca8d6addbf143c8230681a8c884dbf4b83e2bad6429cb1d178ec8b6e6
 ```
 
 Compute it yourself:
 
 ```bash
 # Windows (PowerShell)
-Get-FileHash .\FindASet-1.0.apk -Algorithm SHA256
+Get-FileHash .\FindASet-1.1.apk -Algorithm SHA256
 
 # macOS
-shasum -a 256 FindASet-1.0.apk
+shasum -a 256 FindASet-1.1.apk
 
 # Linux
-sha256sum FindASet-1.0.apk
+sha256sum FindASet-1.1.apk
 ```
 
 The APK is signed with the author's release key
