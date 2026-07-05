@@ -1,7 +1,3 @@
-<div align="center">
-  <img src="LOGO-FAS.png" alt="FindASet" width="160">
-</div>
-
 # FindASet
 
 **FindASet** is a fully offline Android **training & nutrition companion**. It builds and runs
