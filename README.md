@@ -10,7 +10,7 @@ contains no networking code).
 > **not for sale, not redistributable, not modifiable, no reverse-engineering.**
 > See [LICENSE](LICENSE) and [DISCLAIMER](DISCLAIMER.md).
 
-> 💛 **FindASet is free.** If it makes your training better, you can support development with a
+> 💛 **FAS is free.** If it makes your training better, you can support development with a
 > donation: **PayPal [paypal.me/FAMarco](https://paypal.me/FAMarco)** (`@FAMarco`). Thank you!
 
 Author / copyright: **© 2026 Marco Aurelio Fattizzo** ([@eVersor-HN](https://github.com/eVersor-HN)).
