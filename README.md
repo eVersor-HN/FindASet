@@ -40,10 +40,10 @@ your download against the published value proves the file is the **unmodified or
 not tampered with. (The same repository address and this verification hint are shown inside the
 app under **Settings → About**.)
 
-**v1.3 — `FindASet-1.3.apk`:**
+**v1.4 — `FindASet-1.4.apk`:**
 
 ```
-99618ced414dfc8ed6564d7dec14c0be3a93924d9994210beddee01a5fb3b243
+cf88a01eb33b19c55840ec28f7762009f031a5fa076957c5772c6a0840893aff
 ```
 
 The authoritative value for each release is in that release's notes and in its
@@ -53,12 +53,12 @@ The authoritative value for each release is in that release's notes and in its
 
 ```powershell
 # Windows (PowerShell)
-Get-FileHash .\FindASet-1.3.apk -Algorithm SHA256
+Get-FileHash .\FindASet-1.4.apk -Algorithm SHA256
 ```
 
 ```bash
 # macOS                          # Linux
-shasum -a 256 FindASet-1.3.apk   sha256sum FindASet-1.3.apk
+shasum -a 256 FindASet-1.4.apk   sha256sum FindASet-1.4.apk
 ```
 
 The printed hash must match the value above (case-insensitive). If it does **not** match, do
@@ -76,7 +76,7 @@ later update that is not signed with the same key.
   tracking, PR detection announced by the voice.
 - **Plans & calendar** — weekly training plans, month/week logbook, heatmap, streaks,
   per-day notes.
-- **Macro tracking** — quick-log strip, food library with favourites, fuel-tank goals, a
+- **Macro tracking** — quick-log dropdown, food library with favourites, fuel-tank goals, a
   multilingual food database (15 languages) and a **FILL MACROS** calculator that solves food
   amounts to hit the day's remaining macros.
 - **Offline label scanner** — on-device OCR reads kcal / protein / carbs / fat from a
@@ -85,6 +85,7 @@ later update that is not signed with the same key.
 - **Neural offline voice** — an on-device announcer (female & male) with selectable styles,
   personas and effects. Fully offline, like everything else.
 - **Body-weight tracking** — daily log with 0.1 kg steppers, goal line and trend.
+- **Home-screen widget** — today's calories and protein / carbs / fat at a glance; tap to open.
 - **No account, no cloud, no ads, no tracking** — your data never leaves the device; local
   backup export/import built in.
 
