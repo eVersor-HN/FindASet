@@ -10,8 +10,10 @@ contains no networking code).
 > **not for sale, not redistributable, not modifiable, no reverse-engineering.**
 > See [LICENSE](LICENSE) and [DISCLAIMER](DISCLAIMER.md).
 
-> 💛 **FAS is free.** If it makes your training better, you can support development with a
-> donation: **PayPal [paypal.me/FAMarco](https://paypal.me/FAMarco)** (`@FAMarco`). Thank you!
+> 💸 Every rep you logged here was paid for with someone else's unpaid evenings, and your
+> contribution to that total is a personal best in the wrong direction.
+> **PayPal:** paypal.me/FAMarco
+> **Bitcoin:** `bc1qv92c3eyeqvhgfnez7spfd7v2aytkhpshsl65yv`
 
 Author / copyright: **© 2026 Marco Aurelio Fattizzo** ([@eVersor-HN](https://github.com/eVersor-HN)).
 This is the **official** distribution repository — get FindASet only from here:
