@@ -5,6 +5,17 @@ Every release, newest first. The APK checksums live in each
 
 ---
 
+## v1.10 — The deep-audit release · 2026-07-20
+
+- **Logging got fast and stays fast.** Every food/weight entry used to rewrite its whole file on the spot, and each action re-scanned the entire history — after years of daily logs, every tap would have slowed down. Writes now happen in the background and each day is indexed; a tap costs the same on day 1 and day 1000.
+- **A workout now survives its process being killed.** If Android reclaims the app mid-session (memory pressure, Doze), the session comes back — same phase, same tallies, paused and waiting. Re-entering a running workout resumes it instead of silently restarting it from zero.
+- **The player's charge ring finally obeys your accent** — and the phase tints and colour-vision modes with it. It was the one surface still painted in its demo colours.
+- **The notification and widget kcal bars are actually accent-coloured now** (they silently fell back to the system default on most launchers), and the widget shows your rest-day targets on rest days instead of the training goal.
+- **Label scanner:** no more out-of-memory risk on 12 MP photos (a downsample bug decoded near full size), and it stops writing a diagnostic text file next to every scanned photo.
+- **Boot sequence** replays on every app open — not once per day — and the report now sizes itself to the screen instead of scrolling.
+- Honest touch targets (44 px controls grew invisible 48 dp hit areas), a scrollable confirm dialog for short landscape windows, weight trend arrows in two distinguishable colours, warnings in the warning colour, and the analysis screens stopped spraying the accent across every number.
+- Smaller install: ~370 KB of spoken-line text moved out of compiled code into a lazily-loaded asset, and a dead animated component was removed.
+
 ## v1.9 — Landscape & colour vision · 2026-07-20
 
 - **Landscape everywhere.** The app was locked to portrait; it rotates now.
