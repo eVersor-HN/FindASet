@@ -28,6 +28,8 @@ Section 6).
 | eSpeak NG — phonemizer engine compiled into the sherpa-onnx native library, plus the bundled `espeak-ng-data` language data | eSpeak NG contributors; based on eSpeak by Jonathan Duddington | GPL-3.0-or-later |
 | Piper voice models `en_US-kristin-medium` (female) and `en_US-john-medium` (male), int8 | community-trained Piper voices; source recordings from [LibriVox](https://librivox.org) | Public domain (LibriVox recordings) |
 | Food database seed data (the extended "tail" of the bundled food list) | U.S. Department of Agriculture (USDA), FoodData Central | Public domain (U.S. Government work) |
+| Share Tech Mono — bundled font `sharetechmono_regular.ttf` | Carrois Apostrophe (Ralph du Carrois) | [SIL Open Font License 1.1](https://openfontlicense.org) |
+| Chakra Petch — bundled fonts `chakrapetch_{regular,medium,semibold,bold}.ttf` | Cadson Demak | [SIL Open Font License 1.1](https://openfontlicense.org) |
 
 ### Note on ML Kit
 
@@ -36,6 +38,21 @@ Google components distributed under the
 [ML Kit Terms of Service](https://developers.google.com/ml-kit/terms) as part of
 this app. FindASet uses the bundled, fully on-device model only; the app declares
 no INTERNET permission and performs no network calls.
+
+### Note on the bundled fonts (SIL OFL 1.1)
+
+Share Tech Mono and Chakra Petch are bundled **unmodified** as `.ttf` files in
+`app/src/main/res/font/`. Both are licensed under the SIL Open Font License,
+version 1.1, and **remain under that license** within this distribution — the
+FindASet EULA does not apply to them. The OFL permits use, embedding,
+redistribution and modification; it forbids selling the fonts on their own and
+requires that any modified version not use a Reserved Font Name. FindASet
+embeds them as part of an application, which the OFL expressly allows, and does
+not distribute them as a standalone font product.
+
+- Share Tech Mono: https://fonts.google.com/specimen/Share+Tech+Mono
+- Chakra Petch: https://fonts.google.com/specimen/Chakra+Petch
+- OFL 1.1 full text: https://openfontlicense.org
 
 ### Note on eSpeak NG (GPL-3.0)
 

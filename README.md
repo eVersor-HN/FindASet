@@ -42,10 +42,10 @@ your download against the published value proves the file is the **unmodified or
 not tampered with. (The same repository address and this verification hint are shown inside the
 app under **Settings → About**.)
 
-**v1.7 — `FindASet-1.7.apk`:**
+**v1.8 — `FindASet-1.8.apk`:**
 
 ```
-3fc35d3afd5941fc807d388ea085d9bc13adde27bc86afc320d551c76a888e6b
+ef763d63838375257a5c02ff70b7764d78ef224d3cbf67ec878ed5acb0d12813
 ```
 
 The authoritative value for each release is in that release's notes and in its
@@ -55,12 +55,12 @@ The authoritative value for each release is in that release's notes and in its
 
 ```powershell
 # Windows (PowerShell)
-Get-FileHash .\FindASet-1.7.apk -Algorithm SHA256
+Get-FileHash .\FindASet-1.8.apk -Algorithm SHA256
 ```
 
 ```bash
 # macOS                          # Linux
-shasum -a 256 FindASet-1.7.apk   sha256sum FindASet-1.7.apk
+shasum -a 256 FindASet-1.8.apk   sha256sum FindASet-1.8.apk
 ```
 
 The printed hash must match the value above (case-insensitive). If it does **not** match, do
@@ -72,6 +72,9 @@ later update that is not signed with the same key.
 
 ## Features
 
+- **Boot terminal** — the app opens on a status report rather than a menu: a self-test, the day's
+  subsystem levels, what is scheduled and a direct start. It reads today's plan, so a rest day, an
+  easy day and a hard day each get their own readout.
 - **Guided workout player** — timeline, circular timer, voice cues, spoken rest countdowns and
   periodic time call-outs.
 - **Rep & set logging** — optional auto-tempo and count-aloud, weight per set, estimated 1RM
