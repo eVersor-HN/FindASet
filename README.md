@@ -42,10 +42,10 @@ your download against the published value proves the file is the **unmodified or
 not tampered with. (The same repository address and this verification hint are shown inside the
 app under **Settings → About**.)
 
-**v1.8 — `FindASet-1.8.apk`:**
+**v1.9 — `FindASet-1.9.apk`:**
 
 ```
-ef763d63838375257a5c02ff70b7764d78ef224d3cbf67ec878ed5acb0d12813
+cd5abd490a9b74ebd31e1ad79ce0722bffbbd6e7a54ff9cda9de13e3a0373dec
 ```
 
 The authoritative value for each release is in that release's notes and in its
@@ -55,12 +55,12 @@ The authoritative value for each release is in that release's notes and in its
 
 ```powershell
 # Windows (PowerShell)
-Get-FileHash .\FindASet-1.8.apk -Algorithm SHA256
+Get-FileHash .\FindASet-1.9.apk -Algorithm SHA256
 ```
 
 ```bash
 # macOS                          # Linux
-shasum -a 256 FindASet-1.8.apk   sha256sum FindASet-1.8.apk
+shasum -a 256 FindASet-1.9.apk   sha256sum FindASet-1.9.apk
 ```
 
 The printed hash must match the value above (case-insensitive). If it does **not** match, do
@@ -91,6 +91,11 @@ later update that is not signed with the same key.
   personas and effects. Fully offline, like everything else.
 - **Body-weight tracking** — daily log with 0.1 kg steppers, goal line and trend.
 - **Home-screen widget** — today's calories and protein / carbs / fat at a glance; tap to open.
+- **Colour-vision support** — deuteranopia, protanopia, tritanopia and monochrome modes. The alarm
+  colours move to hues that survive the deficiency, statuses gain text markers so meaning never
+  rests on colour alone, and the accent picker shows each swatch as you actually see it.
+- **Portrait and landscape** — every screen lays itself out for the orientation it is in; the
+  player, calendar and label scanner switch to side-by-side arrangements rather than squeezing.
 - **No account, no cloud, no ads, no tracking** — your data never leaves the device; local
   backup export/import built in.
 
