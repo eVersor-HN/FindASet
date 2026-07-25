@@ -92,7 +92,7 @@ later update that is not signed with the same key.
   energy cross-check that repairs gaps. Optionally switch on a barcode lookup to fetch exact values
   online when a label is unreadable. *(Always verify scanned values.)*
 - **Neural offline voice** — an on-device announcer (female & male) with selectable styles,
-  personas and effects. Fully offline, like everything else.
+  personas and effects. Rendered entirely on-device.
 - **Body-weight tracking** — daily log with 0.1 kg steppers, goal line and trend.
 - **Home-screen widget** — today's calories and protein / carbs / fat at a glance; tap to open.
 - **Colour-vision support** — deuteranopia, protanopia, tritanopia and monochrome modes. The alarm
