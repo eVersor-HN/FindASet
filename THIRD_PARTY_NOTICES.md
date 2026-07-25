@@ -21,6 +21,7 @@ Section 6).
 | Kotlin standard library and Gradle plugins | JetBrains s.r.o. and contributors | Apache-2.0 |
 | `org.jetbrains.kotlinx:kotlinx-serialization-json` | JetBrains s.r.o. and contributors | Apache-2.0 |
 | ML Kit Text Recognition — `com.google.mlkit:text-recognition`, incl. the bundled on-device Latin OCR model | Google LLC | [ML Kit Terms of Service](https://developers.google.com/ml-kit/terms) |
+| ML Kit Barcode Scanning — `com.google.mlkit:barcode-scanning`, incl. the bundled on-device barcode model | Google LLC | [ML Kit Terms of Service](https://developers.google.com/ml-kit/terms) |
 | sherpa-onnx — bundled `.aar` (Kotlin/Java API + native `libsherpa-onnx-jni.so`) | Xiaomi Corporation and sherpa-onnx (k2-fsa) contributors | Apache-2.0 |
 | ONNX Runtime — inference engine compiled into the sherpa-onnx native library | Microsoft Corporation | MIT |
 | Piper — neural TTS (VITS) model architecture and tooling | Michael Hansen (Rhasspy) | MIT |
@@ -28,16 +29,18 @@ Section 6).
 | eSpeak NG — phonemizer engine compiled into the sherpa-onnx native library, plus the bundled `espeak-ng-data` language data | eSpeak NG contributors; based on eSpeak by Jonathan Duddington | GPL-3.0-or-later |
 | Piper voice models `en_US-kristin-medium` (female) and `en_US-john-medium` (male), int8 | community-trained Piper voices; source recordings from [LibriVox](https://librivox.org) | Public domain (LibriVox recordings) |
 | Food database seed data (the extended "tail" of the bundled food list) | U.S. Department of Agriculture (USDA), FoodData Central | Public domain (U.S. Government work) |
+| Open Food Facts — product nutrition data fetched by the optional, off-by-default barcode lookup (network) | Open Food Facts contributors | Database [ODbL 1.0](https://opendatacommons.org/licenses/odbl/1-0/); contents [DbCL 1.0](https://opendatacommons.org/licenses/dbcl/1-0/) |
 | Share Tech Mono — bundled font `sharetechmono_regular.ttf` | Carrois Apostrophe (Ralph du Carrois) | [SIL Open Font License 1.1](https://openfontlicense.org) |
 | Chakra Petch — bundled fonts `chakrapetch_{regular,medium,semibold,bold}.ttf` | Cadson Demak | [SIL Open Font License 1.1](https://openfontlicense.org) |
 
 ### Note on ML Kit
 
-The ML Kit Text Recognition SDK and its bundled Latin model are proprietary
-Google components distributed under the
+The ML Kit Text Recognition and Barcode Scanning SDKs and their bundled on-device
+models are proprietary Google components distributed under the
 [ML Kit Terms of Service](https://developers.google.com/ml-kit/terms) as part of
-this app. FindASet uses the bundled, fully on-device model only; the app declares
-no INTERNET permission and performs no network calls.
+this app. Both run **fully on-device** — the label OCR and the barcode reader make
+no network calls of their own. The only network use in the app is the optional Open
+Food Facts lookup, which is **off by default**; see the note below.
 
 ### Note on the bundled fonts (SIL OFL 1.1)
 
@@ -92,6 +95,22 @@ https://fdc.nal.usda.gov). USDA food composition data is in the public domain as
 a work of the U.S. Government. Attribution: "U.S. Department of Agriculture,
 Agricultural Research Service. FoodData Central." USDA does not endorse this
 app. Nutrition values are simplified/rounded for logging purposes.
+
+### Note on Open Food Facts
+
+The **optional** barcode lookup (Settings → Online barcode lookup, **off by
+default**) queries the [Open Food Facts](https://world.openfoodfacts.org) database
+to fetch a scanned product's nutrition values. Open Food Facts data is made
+available under the **Open Database License (ODbL) v1.0** (the database) and the
+**Database Contents License (DbCL) v1.0** (its individual contents); product data
+© Open Food Facts contributors. FindASet reads individual product values to
+pre-fill a food entry the user then reviews and logs; it does not redistribute the
+database. With the lookup disabled, no request is made and no Open Food Facts data
+is used.
+
+- Open Food Facts: https://world.openfoodfacts.org
+- ODbL 1.0: https://opendatacommons.org/licenses/odbl/1-0/
+- DbCL 1.0: https://opendatacommons.org/licenses/dbcl/1-0/
 
 ---
 
