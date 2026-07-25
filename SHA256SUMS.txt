@@ -1,1 +1,1 @@
-9dc663084e03b71cb3bc70fe1fa631de7348f4487f7e3c68ebd867bbabc99399  FindASet-1.10.apk
+23967cee32963fa0c7cedc7d708fec281d2f8c71a573a9bcf35c3cf2d98ddca7  FindASet-1.12.apk

@@ -5,6 +5,17 @@ Every release, newest first. The APK checksums live in each
 
 ---
 
+## v1.12 — Simpler builder, sharper scanner · 2026-07-25
+
+- **The workout builder is now a clean five-step flow.** Name, exercises, timing, schedule, review — one thing per screen, with the estimated total workout duration shown as you build. Adding an exercise asks only the essentials; everything advanced folds away until you want it.
+- **The label scanner reads more of the world.** It now understands nutrition tables in many more languages and reliably tells calories from kilojoules, so scans on European and international packs land right.
+- **Optional barcode lookup.** Turn it on (it is off by default) and the scanner can read a product's barcode and fetch its exact values, with on-device OCR still the fallback. It is the app's only network feature — leave it off and FindASet stays fully offline.
+- **The dashboard talks back.** A spoken greeting on launch, an operator rank that climbs with your training days, and Analysis screens that read your real numbers aloud instead of one fixed line. The settings door moved into the boot report itself.
+
+## v1.11 — A touch more room · 2026-07-22
+
+- The boot report's type is 5% smaller, so the launch sequence sits a little more comfortably on screen.
+
 ## v1.10 — The deep-audit release · 2026-07-20
 
 - **Logging got fast and stays fast.** Every food/weight entry used to rewrite its whole file on the spot, and each action re-scanned the entire history — after years of daily logs, every tap would have slowed down. Writes now happen in the background and each day is indexed; a tap costs the same on day 1 and day 1000.
