@@ -43,10 +43,10 @@ your download against the published value proves the file is the **unmodified or
 not tampered with. (The same repository address and this verification hint are shown inside the
 app under **Settings → About**.)
 
-**v1.12 — `FindASet-1.12.apk`:**
+**v1.13 — `FindASet-1.13.apk`:**
 
 ```
-23967cee32963fa0c7cedc7d708fec281d2f8c71a573a9bcf35c3cf2d98ddca7
+07a279a90e694aef4d3c9c2aeab605e4d40bedb322968584e1c5d20742716537
 ```
 
 The authoritative value for each release is in that release's notes and in its
@@ -56,12 +56,12 @@ The authoritative value for each release is in that release's notes and in its
 
 ```powershell
 # Windows (PowerShell)
-Get-FileHash .\FindASet-1.12.apk -Algorithm SHA256
+Get-FileHash .\FindASet-1.13.apk -Algorithm SHA256
 ```
 
 ```bash
 # macOS                            # Linux
-shasum -a 256 FindASet-1.12.apk    sha256sum FindASet-1.12.apk
+shasum -a 256 FindASet-1.13.apk    sha256sum FindASet-1.13.apk
 ```
 
 The printed hash must match the value above (case-insensitive). If it does **not** match, do
