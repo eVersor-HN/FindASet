@@ -46,7 +46,7 @@ app under **Settings → About**.)
 **v1.13 — `FindASet-1.13.apk`:**
 
 ```
-07a279a90e694aef4d3c9c2aeab605e4d40bedb322968584e1c5d20742716537
+19bf95c31dfe07e1fcf22f49eb16daff4425cb440da953b6c24b93dda1142453
 ```
 
 The authoritative value for each release is in that release's notes and in its
@@ -83,7 +83,8 @@ later update that is not signed with the same key.
 - **Rep & set logging** — optional auto-tempo and count-aloud, weight per set, estimated 1RM
   tracking, PR detection announced by the voice.
 - **Plans & calendar** — weekly training plans, month/week logbook, heatmap, streaks,
-  per-day notes.
+  per-day notes. Call a single day off from the dashboard and its macro targets, reminder and
+  readouts switch to rest without touching the plan; press again to put it back.
 - **Macro tracking** — quick-log dropdown, food library with favourites, fuel-tank goals, a
   multilingual food database (15 languages) and a **FILL MACROS** calculator that solves food
   amounts to hit the day's remaining macros.
