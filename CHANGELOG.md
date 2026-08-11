@@ -5,6 +5,7 @@ Newest first. Each version's APK checksum is in its
 
 ---
 
+## v1.16 · 2026-08-11
 ## v1.15 · 2026-08-11
 ## v1.14 · 2026-08-10
 ## v1.13 · 2026-07-27
