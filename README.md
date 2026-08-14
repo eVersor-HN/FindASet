@@ -46,7 +46,7 @@ app under **Settings → About**.)
 **v1.17 — `FindASet-1.17.apk`:**
 
 ```
-088eb9e83e863e0e5d69ceb26503bd25ae31fbcb03ed08b7a701054895b34001
+1ac0dc45d24c35fc3200342d1dc5904a19f938995d5e5b3d51b40254d122a473
 ```
 
 The authoritative value for each release is in that release's notes and in its
