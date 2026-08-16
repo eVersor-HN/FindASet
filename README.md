@@ -12,6 +12,7 @@ reach the internet is an **optional, off-by-default barcode lookup** you switch 
 
 > 💸 Every rep you logged here was paid for with someone else's unpaid evenings, and your
 > contribution to that total is a personal best in the wrong direction.
+> **Ko-fi:** [ko-fi.com/eversorhn](https://ko-fi.com/eversorhn)
 > **PayPal:** paypal.me/FAMarco
 > **Bitcoin:** `bc1qv92c3eyeqvhgfnez7spfd7v2aytkhpshsl65yv`
 
