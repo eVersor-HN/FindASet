@@ -24,12 +24,11 @@ redistributable, not modifiable, no reverse-engineering.** The authoritative ter
 
 ## Support the project
 
-> **Ko-fi:** https://ko-fi.com/eversorhn
-> **PayPal:** https://paypal.me/FAMarco (`@FAMarco`)
-> **Bitcoin:** `bc1qv92c3eyeqvhgfnez7spfd7v2aytkhpshsl65yv`
+> 💸 **You extracted joy and gave nothing back. History's worst people started exactly this small.**
 
-> 💸 *You extracted joy and gave nothing back.
-> History's worst people started exactly this small.*
+- **Ko-fi:** https://ko-fi.com/eversorhn
+- **PayPal:** https://paypal.me/FAMarco (`@FAMarco`)
+- **Bitcoin:** `bc1qv92c3eyeqvhgfnez7spfd7v2aytkhpshsl65yv`
 
 ---
 
@@ -69,6 +68,10 @@ unsupported.
 3. Open the APK on the device and allow installation from this source when prompted
    ("Install unknown apps"), then follow the installer.
 4. Nothing to configure — the app is operational on first launch.
+
+**Updating:** FindASet does not auto-update — it has no component that could. Download the newest
+signed APK and install it over the old one; the signing key is unchanged, so it updates in place
+and keeps your data.
 
 ---
 
@@ -171,7 +174,7 @@ the same key.
 
 ## System requirements
 
-- **Android 8.0** or newer
+- **Android 8.0 (API 26)** or newer
 - **arm64-v8a** device
 - **~95 MB** free storage (voice, food database and scanner assets included)
 - Camera required for label and barcode scanning
