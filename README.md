@@ -82,20 +82,20 @@ Release. Filename and hash must match exactly; a match proves the file is the un
 original. The same repository address and this verification hint are shown in the app under
 **Settings → About**.
 
-**v1.18 — `FindASet-1.18.apk`:**
+**v1.19 — `FindASet-1.19.apk`:**
 
 ```
-2044a316924e5698c402c315b53886b621e4695288c28de171013ce47838cda9
+c7a865e1a80d24fa58756ed0d8a217dec4bd18dffc8b3ac56fad529ccb0a298a
 ```
 
 ```powershell
 # Windows (PowerShell)
-Get-FileHash .\FindASet-1.18.apk -Algorithm SHA256
+Get-FileHash .\FindASet-1.19.apk -Algorithm SHA256
 ```
 
 ```bash
 # macOS                            # Linux
-shasum -a 256 FindASet-1.18.apk    sha256sum FindASet-1.18.apk
+shasum -a 256 FindASet-1.19.apk    sha256sum FindASet-1.19.apk
 ```
 
 If the printed hash does **not** match, do **not** install the file — it is not the genuine
@@ -111,7 +111,8 @@ the same key.
 **CONTROL**
 - Operates locally. No account, no cloud dependency, no subscription.
 - Your plan, your log, your food library — exported and restored on your terms.
-- Sixteen selectable interface accents; the whole app follows the one you pick.
+- Seventeen selectable interface accents — a neutral one by default, sixteen hues if you want
+  one; the whole app follows your pick.
 
 **TRAINING**
 - **Boot report** — the app opens on a status readout rather than a menu: self-test, the day's

@@ -4,6 +4,13 @@ Built forward. Tracked clearly. Newest first.
 
 ---
 
+## 1.19 — 2026-08-24
+
+- The interface is monochrome by default: neutral chrome end to end, with colour kept for the things that actually mean something — a macro past its target, a warning, the training phase you are in.
+- The last of the old green tint is gone from backgrounds, panels, gauges and the launcher icon, so a chosen accent colour now reads true instead of sitting on a tinted ground.
+- A neutral MONO accent joins the picker as the new default; all sixteen colours are still there and one tap away.
+- The workout notification takes your chosen accent colour instead of a fixed one.
+
 ## 1.18 — 2026-08-17
 
 - Macros can start over: clear just the day you are viewing, or wipe the entire logged history — each behind its own confirmation step.
