@@ -1,8 +1,8 @@
-# FindASet
+# FITNESS
 
 **Local training and nutrition control. No account. No cloud. No observers.**
 
-FindASet runs your training and your fuel from a single system on the device in your hand.
+FITNESS runs your training and your fuel from a single system on the device in your hand.
 It builds and drives workouts with a neural announcer, counts reps and load, tracks personal
 records, logs macros and body-weight, and reads nutrition labels straight off the packaging —
 without a login, a subscription, or a server that has to be reachable for the app to work.
@@ -42,7 +42,7 @@ redistributable, not modifiable, no reverse-engineering.** The authoritative ter
   launch. The app fetches nothing on its own.
 - **One network feature, and it is off by default:** the optional barcode lookup. Enable it and
   a scanned barcode number is sent to **Open Food Facts** to retrieve that product's nutrition
-  values. Leave it off and FindASet makes no network requests at all.
+  values. Leave it off and FITNESS makes no network requests at all.
 - **Permissions:** camera (label and barcode scanning) and notifications (live macro and
   workout status, reminders). Nothing further.
 
@@ -51,10 +51,10 @@ redistributable, not modifiable, no reverse-engineering.** The authoritative ter
 ## Official distribution
 
 Author: **eVersor-HN** — Marco Aurelio Fattizzo
-Official repository: **https://github.com/eVersor-HN/FindASet**
+Official repository: **https://github.com/eVersor-HN/FITNESS**
 
 This repository is the sole official source. Builds are published only on its
-[**Releases**](https://github.com/eVersor-HN/FindASet/releases) page. FindASet is not on the
+[**Releases**](https://github.com/eVersor-HN/FITNESS/releases) page. FITNESS is not on the
 Play Store or any other app store — any copy obtained elsewhere is unofficial, unverified and
 unsupported.
 
@@ -62,14 +62,14 @@ unsupported.
 
 ## Download & install
 
-1. Download the latest **`FindASet-<version>.apk`** from the
-   [Releases](https://github.com/eVersor-HN/FindASet/releases) page.
+1. Download the latest **`FITNESS-<version>.apk`** from the
+   [Releases](https://github.com/eVersor-HN/FITNESS/releases) page.
 2. **Verify the SHA-256** against the value published with that release (see below).
 3. Open the APK on the device and allow installation from this source when prompted
    ("Install unknown apps"), then follow the installer.
 4. Nothing to configure — the app is operational on first launch.
 
-**Updating:** FindASet does not auto-update — it has no component that could. Download the newest
+**Updating:** FITNESS does not auto-update — it has no component that could. Download the newest
 signed APK and install it over the old one; the signing key is unchanged, so it updates in place
 and keeps your data.
 
@@ -82,24 +82,24 @@ Release. Filename and hash must match exactly; a match proves the file is the un
 original. The same repository address and this verification hint are shown in the app under
 **Settings → About**.
 
-**v1.19 — `FindASet-1.19.apk`:**
+**v1.20 — `FITNESS-1.20.apk`:**
 
 ```
-c7a865e1a80d24fa58756ed0d8a217dec4bd18dffc8b3ac56fad529ccb0a298a
+5b8652002b02e55eaa45e0ba8014d153df4618d934121b3e2cadc1ad152d21aa
 ```
 
 ```powershell
 # Windows (PowerShell)
-Get-FileHash .\FindASet-1.19.apk -Algorithm SHA256
+Get-FileHash .\FITNESS-1.20.apk -Algorithm SHA256
 ```
 
 ```bash
 # macOS                            # Linux
-shasum -a 256 FindASet-1.19.apk    sha256sum FindASet-1.19.apk
+shasum -a 256 FITNESS-1.20.apk    sha256sum FITNESS-1.20.apk
 ```
 
 If the printed hash does **not** match, do **not** install the file — it is not the genuine
-FindASet build. The authoritative value for each release is in that release and in
+FITNESS build. The authoritative value for each release is in that release and in
 [`SHA256SUMS.txt`](SHA256SUMS.txt). Builds are signed with the author's release key
 (`CN=Marco Aurelio Fattizzo, O=FindASet, C=DE`); Android refuses any update not signed with
 the same key.
@@ -167,7 +167,7 @@ the same key.
   removes it — use the built-in backup export to keep a copy.
 - **Sideloaded distribution.** Updates are manual: download and verify each new release
   yourself. There is no automatic update channel.
-- **Not medical, dietary or fitness advice.** FindASet is a personal bookkeeping tool; all
+- **Not medical, dietary or fitness advice.** FITNESS is a personal bookkeeping tool; all
   figures are estimates. Exercise carries risk — train within your limits. See
   [`DISCLAIMER.md`](DISCLAIMER.md).
 
@@ -184,7 +184,7 @@ the same key.
 
 ## License
 
-FindASet is **proprietary, closed-source** software licensed under the **FindASet EULA** —
+FITNESS is **proprietary, closed-source** software licensed under the **FITNESS EULA** —
 full text in [`LICENSE`](LICENSE):
 
 - ✅ **Use** it for any purpose, **including commercially**.
@@ -198,7 +198,7 @@ the distributed application, nothing more.
 
 ## Third-party notices
 
-FindASet bundles third-party components that remain governed by their own licenses, including
+FITNESS bundles third-party components that remain governed by their own licenses, including
 components under Apache-2.0, MIT, GPL-3.0, the SIL Open Font License and vendor terms, plus
 public-domain voice and food data. Full attribution and license texts:
 [`THIRD_PARTY_NOTICES.md`](THIRD_PARTY_NOTICES.md).

@@ -1,13 +1,13 @@
 # Disclaimer
 
-**FindASet** — Copyright (c) 2026 **Marco Aurelio Fattizzo**. All rights reserved.
+**FITNESS** — Copyright (c) 2026 **Marco Aurelio Fattizzo**. All rights reserved.
 
 Please read this together with the [LICENSE](LICENSE). By installing or using the
 Software you accept this Disclaimer.
 
 ## Not medical, dietary, or fitness advice
 
-FindASet is a **personal bookkeeping and training-logging tool for general
+FITNESS is a **personal bookkeeping and training-logging tool for general
 informational purposes only**. It is **not** a medical device and does **not**
 provide medical, nutritional, dietary, diagnostic, therapeutic, or professional
 fitness advice, and it is **no substitute** for consultation with a qualified
@@ -25,7 +25,7 @@ physician, dietitian, or trainer.
   especially if you are pregnant, under 18, elderly, injured, or have any medical
   condition.
 
-**You use FindASet entirely at your own risk.** You are solely responsible for
+**You use FITNESS entirely at your own risk.** You are solely responsible for
 any decisions and actions you take based on it.
 
 ## No warranty
@@ -54,7 +54,7 @@ for the full liability terms.
 
 ## Privacy
 
-FindASet is **fully offline**. It declares **no `INTERNET` permission** and
+FITNESS is **fully offline**. It declares **no `INTERNET` permission** and
 contains no networking code; all data stays in the app's private on-device
 storage. There is no account, no cloud, no analytics, and no tracking. The author
 does not receive, collect, or have access to any of your data. Back-ups you
@@ -62,8 +62,8 @@ create are your responsibility.
 
 ## Authenticity
 
-The only official source of FindASet is
-**https://github.com/eVersor-HN/FindASet**. Each release publishes the **SHA-256
+The only official source of FITNESS is
+**https://github.com/eVersor-HN/FITNESS**. Each release publishes the **SHA-256
 checksum** of the official APK. Verify your download against it (see the release
 repository's README) before installing. Builds obtained elsewhere, or whose
 checksum does not match, may be modified or malicious and are not covered by the

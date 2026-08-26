@@ -1,12 +1,12 @@
-FindASet End-User License Agreement (EULA)
+FITNESS End-User License Agreement (EULA)
 Copyright (c) 2026 Marco Aurelio Fattizzo. All rights reserved.
 
-This is a proprietary license. FindASet is NOT open source. Please read it in
+This is a proprietary license. FITNESS is NOT open source. Please read it in
 full; by downloading, installing, or using the Software you agree to these terms.
 If you do not agree, do not install or use the Software.
 
 1. Definitions
-   "Software" means the FindASet application in compiled/binary form, together
+   "Software" means the FITNESS application in compiled/binary form, together
    with its assets, models, documentation, and these license files, as
    distributed by the Licensor. "Licensor" means the copyright holder named
    above. "You" means the individual or legal entity exercising rights under
@@ -35,7 +35,7 @@ If you do not agree, do not install or use the Software.
    (d) remove, alter, obscure, or circumvent any copyright, trademark, license,
        authorship, integrity, or other proprietary notice, marking, or
        technical protection or verification measure in or on the Software;
-   (e) use the "FindASet" name, logo, or branding except to refer to verbatim,
+   (e) use the "FITNESS" name, logo, or branding except to refer to verbatim,
        unmodified copies of the Software as distributed by the Licensor.
 
    The only authorized source of the Software is the Licensor's official release
@@ -107,7 +107,7 @@ If you do not agree, do not install or use the Software.
 
 11. Authentication / Official Source
    The official, authentic Software is published only at:
-   https://github.com/eVersor-HN/FindASet
+   https://github.com/eVersor-HN/FITNESS
    Each release lists the SHA-256 checksum of the official APK so You can verify
    that Your copy is the genuine, unmodified build. Copies obtained elsewhere,
    or whose checksum does not match, are not covered by this License and may be
@@ -120,4 +120,4 @@ If you do not agree, do not install or use the Software.
    the entire agreement between You and the Licensor regarding the Software and
    supersedes any prior understanding.
 
-Contact: via GitHub — https://github.com/eVersor-HN/FindASet (open an issue).
+Contact: via GitHub — https://github.com/eVersor-HN/FITNESS (open an issue).

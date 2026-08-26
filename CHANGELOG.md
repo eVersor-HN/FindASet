@@ -1,8 +1,13 @@
-# What's New in FindASet
+# What's New in FITNESS
 
 Built forward. Tracked clearly. Newest first.
 
 ---
+
+## 1.20 — 2026-08-26
+
+- The app is now called **FITNESS** — on the launcher, inside every screen, on the shared PDF report and across the repository.
+- Nothing else changed: your workouts, macro history, weight log, goals, favourites and settings carry straight over, and backups written under the old name still restore.
 
 ## 1.19 — 2026-08-24
 

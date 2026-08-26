@@ -1,12 +1,12 @@
 # Third-Party Notices
 
-FindASet is proprietary software (see [LICENSE](LICENSE)). It bundles the
+FITNESS is proprietary software (see [LICENSE](LICENSE)). It bundles the
 third-party components listed below. Each remains the property of its respective
 copyright holders and is used, and where applicable redistributed, under its own
 license. This file accompanies the official distribution of the Software to
 satisfy the attribution / notice requirements of those licenses.
 
-Nothing in the FindASet EULA restricts or overrides any rights granted to you by
+Nothing in the FITNESS EULA restricts or overrides any rights granted to you by
 these components' own licenses with respect to those components; to the extent of
 any conflict, the component's license controls for that component (see LICENSE,
 Section 6).
@@ -47,9 +47,9 @@ Food Facts lookup, which is **off by default**; see the note below.
 Share Tech Mono and Chakra Petch are bundled **unmodified** as `.ttf` files in
 `app/src/main/res/font/`. Both are licensed under the SIL Open Font License,
 version 1.1, and **remain under that license** within this distribution — the
-FindASet EULA does not apply to them. The OFL permits use, embedding,
+FITNESS EULA does not apply to them. The OFL permits use, embedding,
 redistribution and modification; it forbids selling the fonts on their own and
-requires that any modified version not use a Reserved Font Name. FindASet
+requires that any modified version not use a Reserved Font Name. FITNESS
 embeds them as part of an application, which the OFL expressly allows, and does
 not distribute them as a standalone font product.
 
@@ -61,9 +61,9 @@ not distribute them as a standalone font product.
 
 The eSpeak NG engine and its `espeak-ng-data` language data are licensed under
 the **GNU General Public License, version 3.0 or later**, and **remain under
-that license** within this distribution. The FindASet EULA does **not** apply to
+that license** within this distribution. The FITNESS EULA does **not** apply to
 eSpeak NG: your rights to use, copy, modify, and redistribute eSpeak NG under
-the GPL are unaffected. FindASet bundles an **unmodified** eSpeak NG exactly as
+the GPL are unaffected. FITNESS bundles an **unmodified** eSpeak NG exactly as
 compiled into the prebuilt sherpa-onnx library (v1.13.2) via piper-phonemize.
 
 Corresponding source code of the GPL-licensed component:
@@ -73,7 +73,7 @@ Corresponding source code of the GPL-licensed component:
 - build scripts producing the bundled binary: https://github.com/k2-fsa/sherpa-onnx
 
 If you are unable to obtain the source from the links above, open an issue at
-https://github.com/eVersor-HN/FindASet and the complete corresponding source of
+https://github.com/eVersor-HN/FITNESS and the complete corresponding source of
 the GPL component will be provided at no charge.
 
 The full text of the GPL-3.0 is reproduced at the end of this file.
@@ -103,7 +103,7 @@ default**) queries the [Open Food Facts](https://world.openfoodfacts.org) databa
 to fetch a scanned product's nutrition values. Open Food Facts data is made
 available under the **Open Database License (ODbL) v1.0** (the database) and the
 **Database Contents License (DbCL) v1.0** (its individual contents); product data
-© Open Food Facts contributors. FindASet reads individual product values to
+© Open Food Facts contributors. FITNESS reads individual product values to
 pre-fill a food entry the user then reviews and logs; it does not redistribute the
 database. With the lookup disabled, no request is made and no Open Food Facts data
 is used.
